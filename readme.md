@@ -12,6 +12,9 @@
     [Python 3.6.1](https://www.python.org/downloads/release/python-361/)- This version was used to write 
     the code so it is recommended, but any Python 3 should work. 
     Make sure to check the "add python to path" option when installing.
+    The code has been tested on Python 2.7.16 and all the tests will work. But, when using the
+    CLI, make sure to enter all inputs surrounded by "" since the output function has been changed
+    from Python 2 to Python 3.
 
     Install the required modules by entering the following lines into your command prompt
     ```bash
