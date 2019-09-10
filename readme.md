@@ -28,7 +28,9 @@
     From a command prompt, go to the location of the test files you downloaded from github
     
     ```
+    
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
+    
     ```
     
     Below is an example of how to run a specific test from the command prompt. 
@@ -36,7 +38,9 @@
     In this example, it is running the tests in the file 'test_splitTip.py'
     
     ```
+    
     pytest -rA test_splitTip.py
+    
     ```
     
 # Executing the command line interface
@@ -49,7 +53,9 @@
     Enter the line below in the command prompt to run the CLI
     
     ```
+    
     python CommandLineApp.py
+    
     ```
     
 # Opinions on TDD
