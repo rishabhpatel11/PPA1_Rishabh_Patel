@@ -18,6 +18,7 @@
     from Python 2 to Python 3.
 
     Install the required modules by entering the following lines into your command prompt
+    
     ```
     pip install pytest
     pip install pytest-cov
@@ -25,24 +26,32 @@
 
 # Executing the tests
     From a command prompt, go to the location of the test files you downloaded from github
+    
     ```
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
+    
     Below is an example of how to run a specific test from the command prompt. 
     Replace the filename with the name of the file you want to test. 
     In this example, it is running the tests in the file 'test_splitTip.py'
+    
     ```
     pytest -rA test_splitTip.py
     ```
+    
 # Executing the command line interface
     From a command prompt, go to the location of the test files you downloaded from github
+    
     ```
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
+    
     Enter the line below in the command prompt to run the CLI
+    
     ```
     python CommandLineApp.py
     ```
+    
 # Opinions on TDD
     I have done unit testing in java but it was very brief and a long time ago. This is the first time I am using TDD. 
     I definitely think unit testing is helpful in general, whether it be with TDD or not. For most software, unit testing is 
