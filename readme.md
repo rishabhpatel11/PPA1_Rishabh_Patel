@@ -25,22 +25,22 @@
 
 # Executing the tests
     From a command prompt, go to the location of the test files you downloaded from github
-    ```bash
+    ```
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
     Below is an example of how to run a specific test from the command prompt. 
     Replace the filename with the name of the file you want to test. 
     In this example, it is running the tests in the file 'test_splitTip.py'
-    ```bash
+    ```
     pytest -rA test_splitTip.py
     ```
 # Executing the command line interface
     From a command prompt, go to the location of the test files you downloaded from github
-    ```bash
+    ```
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
     Enter the line below in the command prompt to run the CLI
-    ```bash
+    ```
     python CommandLineApp.py
     ```
 # Opinions on TDD
