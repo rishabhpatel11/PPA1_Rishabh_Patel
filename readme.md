@@ -19,7 +19,7 @@
 
     Install the required modules by entering the following lines into your command prompt
     
-    ```bash
+    ```
     pip install pytest
     pip install pytest-cov
     ```
@@ -27,7 +27,7 @@
 # Executing the tests
     From a command prompt, go to the location of the test files you downloaded from github
     
-    ```bash
+    ```
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
     
