@@ -9,7 +9,9 @@
     Testing Tools- pytest and pytest-cov
 
 ## Installation
-    [Python 3.6.1](https://www.python.org/downloads/release/python-361/)- This version was used to write the code so it is recommended, but any Python 3 should work. Make sure to check the "add python to path" option when installing.
+    [Python 3.6.1](https://www.python.org/downloads/release/python-361/)- This version was used to write 
+    the code so it is recommended, but any Python 3 should work. 
+    Make sure to check the "add python to path" option when installing.
 
     Install the required modules by entering the following lines into your command prompt
     ```bash
@@ -22,7 +24,9 @@
     ```bash
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
-    Below is an example of how to run a specific test from the command prompt. Replace the filename with the name of the file you want to test. In this example, it is running the tests in the file 'test_splitTip.py'
+    Below is an example of how to run a specific test from the command prompt. 
+    Replace the filename with the name of the file you want to test. 
+    In this example, it is running the tests in the file 'test_splitTip.py'
     ```bash
     pytest -rA test_splitTip.py
     ```
