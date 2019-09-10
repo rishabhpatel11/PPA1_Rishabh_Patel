@@ -36,10 +36,19 @@
     python CommandLineApp.py
     ```
 # Opinions on TDD
-    I have done unit testing in java but it was very brief and a long time ago. This is the first time I am using TDD. I definitely think unit testing is helpful in general, whether it be with TDD or not. For most software, unit testing is probably necessary since there are many parts that need to be tested individually. 
-    As for TDD, the main advantages I noticed for me were increased organization in code and minimal code. Writing the code, I went in order of the tests, so everything just naturally grouped up like all the data type tests are grouped at the top. Also, I only wrote code that was necessary to pass the tests so I didn't end up with any unused variables or useless lines. 
-    The major drawback of TDD was slowness. For most of my functions, the test files had more lines of code than the function it was testing. Also, to get a high code coverage, you need to write tests for simple code that you already know works and it just seems more like a formality to test it.
-    In a real project, TDD's usefulness would depend on the project itself. If it was part of a large company where all the functions and features are already specified and formalized, then I think TDD would be beneficial. If it was just a solo project or a small team, I think it might be better for the flow of the project to jump right into the code.
+    I have done unit testing in java but it was very brief and a long time ago. This is the first time I am using TDD. 
+    I definitely think unit testing is helpful in general, whether it be with TDD or not. For most software, unit testing is 
+    probably necessary since there are many parts that need to be tested individually. 
+
+    As for TDD, the main advantages I noticed for me were increased organization in code and minimal code. Writing the code, 
+    I went in order of the tests, so everything just naturally grouped up like all the data type tests are grouped at the top. 
+    Also, I only wrote code that was necessary to pass the tests so I didn't end up with any unused variables or useless lines. 
+
+    The major drawback of TDD was slowness. For most of my functions, the test files had more lines of code than the function it was testing.
+    To get a high code coverage, you need to write tests for simple code that you already know works and it just seems more like a formality to test it.
+    In a real project, TDD's usefulness would depend on the project itself. If it was part of a large company where all the functions and 
+    features are already specified and formalized, then I think TDD would be beneficial. If it was just a solo project or a small team, 
+    I think it might be better for the flow of the project to jump right into the code.
 
 
 "# PPA1_Rishabh_Patel" 
