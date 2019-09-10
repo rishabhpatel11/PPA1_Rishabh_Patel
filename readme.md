@@ -18,7 +18,7 @@
     from Python 2 to Python 3.
 
     Install the required modules by entering the following lines into your command prompt
-    ```bash
+    ```
     pip install pytest
     pip install pytest-cov
     ```
