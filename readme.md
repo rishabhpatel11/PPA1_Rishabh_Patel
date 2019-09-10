@@ -31,6 +31,10 @@
     Example- cd C:\Users\Rishi\Downloads\PPA#1Python
     ```
     
+    ```
+    Example- cd C:\Users\Rishi\Downloads\PPA#1Python
+    ```
+    
     Below is an example of how to run a specific test from the command prompt. 
     Replace the filename with the name of the file you want to test. 
     In this example, it is running the tests in the file 'test_splitTip.py'
