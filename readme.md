@@ -1,5 +1,6 @@
 # Professional Practice Assignment 1 
-Project Report-
+Project Report
+
 Rishabh Patel
 
 # Naming Conventions
@@ -14,8 +15,11 @@ success or failure.
 
 # Environment & Tools used
 OS- Windows 10
+
 Language- Python 3.6.1
+
 Testing Tools- pytest 
+
 Coverage Tool- pytest-cov
 
 ## Installation
@@ -68,6 +72,16 @@ Enter the line below in the command prompt to run the CLI
 ```bash
 python CommandLineApp.py
 ```
+
+# Test Output Report
+Code used to create the test output:
+    pytest -rA
+![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/testouput.PNG)
+
+# Test Coverage Report
+Code used to create the coverage report:
+    pytest --cov
+![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/coverage.PNG)
 
 # Opinions on TDD
 I haved used unit testing in java but it was a long time ago and very brief. For my first time unit testing in python, I found it
