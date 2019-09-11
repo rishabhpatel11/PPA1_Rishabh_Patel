@@ -75,20 +75,32 @@ python CommandLineApp.py
 
 # Test Output Report
 Code used to create the test output:
+
+```
     pytest -rA
+```
+
 ![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/testoutput.PNG)
 
 # Test Coverage Report
 Code used to create the coverage report:
+
+```
     pytest --cov
+```
+
 ![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/coverage.PNG)
 
 # Screencasts:
 Too large to embed but here are the links to the screencasts in the repo
 
-[RGR](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/Testingscreencast.mp4)
+[2 Iterations of RGR Screencast](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/Testingscreencast.mp4)
 
-[Execution](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/ExecutionScreencast.mp4)
+I was not sure if the screencast needed to be 4 executions per function or 1. I originally had 4, but
+the video seems fast and difficult to follow, so I have changed the video to 1 per function. To be safe,
+I have kept the longer video in the repo as 'ExecutionScreencast.mp4'. Here is the link to the new video:
+
+[1 Execution of Each Function Screencast](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/ShorterExecutionScreencast.mp4)
 
 # Opinions on TDD
 I haved used unit testing in java but it was a long time ago and very brief. For my first time unit testing in python, I found it
