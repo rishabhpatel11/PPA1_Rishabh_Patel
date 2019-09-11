@@ -97,7 +97,7 @@ Too large to embed but here are the links to the screencasts in the repo
 [2 Iterations of RGR Screencast](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/Testingscreencast.mp4)
 
 I was not sure if the screencast needed to be 4 executions per function or 1. I originally had 4, but
-the video seems fast and difficult to follow, so I have changed the video to 1 per function. I didn't want to cluttle the repo with another large mp4 so I removed it. In case I am mistaken, this is a [google drive link](https://drive.google.com/file/d/1lHXAY_EYc6XUpP8a0A7xmL0pphrVOK7D/view?usp=sharing) to the longer video.
+the video seems fast and difficult to follow, so I have changed the video to 1 per function. I didn't want to clutter the repo with another large mp4 so I removed it. In case I am mistaken, this is a [google drive link](https://drive.google.com/file/d/1lHXAY_EYc6XUpP8a0A7xmL0pphrVOK7D/view?usp=sharing) to the longer video.
 
 [1 Execution of Each Function Screencast](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/ShorterExecutionScreencast.mp4)
 
