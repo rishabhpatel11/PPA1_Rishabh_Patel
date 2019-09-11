@@ -76,7 +76,7 @@ python CommandLineApp.py
 # Test Output Report
 Code used to create the test output:
     pytest -rA
-![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/testouput.PNG)
+![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/testoutput.PNG)
 
 # Test Coverage Report
 Code used to create the coverage report:
