@@ -1,5 +1,5 @@
 # Professional Practice Assignment 1 
-Project- Report
+Project Report-
 Rishabh Patel
 
 # Naming Conventions
