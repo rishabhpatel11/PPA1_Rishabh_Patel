@@ -101,7 +101,7 @@ the video seems fast and difficult to follow, so I have changed the video to 1 p
 
 [1 Execution of Each Function Screencast](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/ShorterExecutionScreencast.mp4)
 
-# Opinions on TDD
+# Opinions on Unit Testing & TDD
 I haved used unit testing in java but it was a long time ago and very brief. For my first time unit testing in python, I found it
 to be fairly straightforward and simple. Each test was logically understandable and only required a few lines to set up.
 This is the first time I am using TDD. I would say TDD was helpful to make sure my functions fulfilled the requirements, but
