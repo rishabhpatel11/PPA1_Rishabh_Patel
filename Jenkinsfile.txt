@@ -11,7 +11,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile sources/BMICalculator.py sources/DistanceCalculator.py sources/RetirementCalculator.py SplitTipCalculator.py sources/CommandLineApp.py'
+                sh 'python -m py_compile BMICalculator.py DistanceCalculator.py RetirementCalculator.py SplitTipCalculator.py CommandLineApp.py'
             }
         }
         stage('Test') {
@@ -21,7 +21,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'py.test --verbose --junit-xml test-reports/results.xml sources/test_bmi.py sources/test_distance.py sources/test_retirement.py sources/test_splitTip.py'
+                sh 'py.test --verbose --junit-xml test-reports/results.xml test_bmi.py test_distance.py test_retirement.py test_splitTip.py'
             }
             post {
                 always {
@@ -36,11 +36,11 @@ pipeline {
                 }
             }
             steps {
-                sh 'pyinstaller --onefile sources/CommandLineApp.py' 
+                sh 'pyinstaller --onefile CommandLineApp.py' 
             }
             post {
                 success {
-                    archiveArtifacts 'dist/CommandLineApp' 
+                    archiveArtifacts 'CommandLineApp' 
                 }
             }
         }
