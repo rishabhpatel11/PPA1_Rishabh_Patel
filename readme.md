@@ -92,7 +92,7 @@ pytest -rA test_database.py
 ![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/CI_phase4.gif)
 
 # CLI Database Functionality
-![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/tree/master/GIFs%2BImages/Phase2)
+![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/tree/master/GIFs%2BImages/Phase2/databaseFunctionality.gif)
 
 # Web App Functionality
 ![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase3/webFunctionality.gif)
@@ -104,7 +104,7 @@ Code used to create the test output:
     pytest -rA
 ```
 
-![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS%2BImages/Phase4/testoutput.JPG)
+![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/testoutput.JPG)
 
 # Test Coverage Report
 Code used to create the coverage report:
@@ -113,7 +113,7 @@ Code used to create the coverage report:
     pytest --cov
 ```
 
-![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS%2BImages/Phase4/coveragereport.JPG)
+![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/coveragereport.JPG)
 
 
 
