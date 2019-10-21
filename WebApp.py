@@ -45,9 +45,17 @@ def displayDistanceData():
         output.append(dict(zip(attributes,q)))
    return json.dumps(output, indent=4, sort_keys=True, default=str)
 
+@app.errorhandler(500)
+def internal_error(error):
+    return "500 error"
+
+@app.errorhandler(404)
+def not_found(error):
+    return "404 error",404
+
 
 
 if __name__ == '__main__':
    print("Go to http://localhost:5000/bmi or http://localhost:5000/distance to get json data")
    os.environ['WERKZEUG_RUN_MAIN'] = 'true'
-   app.run()
+   app.run(debug=False)
