@@ -13,6 +13,7 @@ install:
   #- pip install doubles
 # command to run tests
 script:
+  - echo "No build required"
   #- echo "Running functional tests"
   - pytest -rA test_bmi.py test_distance.py test_retirement.py test_splitTip.py
   #- echo "Running database tests"
