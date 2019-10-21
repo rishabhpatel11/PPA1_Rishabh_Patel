@@ -47,7 +47,7 @@ Make sure docker desktop is running
 
 Execute the following commands to set up the database in docker:
 ```bash
-    docker run --name=rp_mysql --env="MYSQL_ROOT_PASSWORD=password" -p 3308:3306 -d mysql:latest
+        docker run --name=rp_mysql --env="MYSQL_ROOT_PASSWORD=password" -p 3308:3306 -d mysql:latest
 	docker exec -it rp_mysql mysql -uroot -ppassword    (Note: For some reason, you have to right click to paste instead of CRTL+v)
 	create database ppa2;
 	use ppa2;
@@ -60,13 +60,13 @@ Execute the following commands to set up the database in docker:
 From a command prompt, go to the location of the test files you downloaded from github
 
 ```bash
-Example- cd C:\Users\Rishi\Downloads\PPA#1Python
+Example- cd C:\Users\Rishi\Downloads\PPA#1_Rishabh_Patel_
 ```
 
 Execute the following 
 
 ```bash
-python CommandLineApp.py
+python main.py
 ```
 # How to run all tests
 
@@ -87,7 +87,7 @@ Code used to create the test output:
     pytest -rA
 ```
 
-![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS+Images/Phase4/testoutput.JPG)
+![test report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS%Images/Phase4/testoutput.JPG)
 
 # Test Coverage Report
 Code used to create the coverage report:
@@ -96,7 +96,7 @@ Code used to create the coverage report:
     pytest --cov
 ```
 
-![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS+Images/Phase4/coveragereport.JPG)
+![coverage report](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFS%Images/Phase4/coveragereport.JPG)
 
 
 
