@@ -101,11 +101,9 @@ pytest -rA test_database.py
 # Screencast of final CI
 ![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/CI_phase4.gif)
 
-# CLI Database Functionality
-![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/tree/master/GIFs%2BImages/Phase2/databaseFunctionality.gif)
+# Full Execution
+![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/tree/master/GIFs%2BImages/Phase4/fullexecution.gif)
 
-# Web App Functionality
-![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase3/webFunctionality.gif)
 
 # Test Output Report
 Code used to create the test output:
