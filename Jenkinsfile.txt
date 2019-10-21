@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile BMICalculator.py DistanceCalculator.py RetirementCalculator.py SplitTipCalculator.py CommandLineApp.py WebApp.py'
+                sh 'python -m py_compile BMICalculator.py DistanceCalculator.py RetirementCalculator.py SplitTipCalculator.py CommandLineApp.py WebApp.py main.py'
             }
         }
         stage('Test') { 
