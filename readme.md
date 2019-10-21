@@ -48,7 +48,7 @@ Make sure docker desktop is running
 Execute the following commands to set up the database in docker:
 ```bash
         docker run --name=rp_mysql --env="MYSQL_ROOT_PASSWORD=password" -p 3308:3306 -d mysql:latest
-	docker exec -it rp_mysql mysql -uroot -ppassword    (Note: For some reason, you have to right click to paste instead of CRTL+v)
+	docker exec -it rp_mysql mysql -uroot -ppassword    (Note: It may take a few seconds for the previous command to have finished setting up the mysql container)
 	create database ppa2;
 	use ppa2;
 	CREATE TABLE distances_table (x1 float, y1 float, x2 float, y2 float, distance float, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
