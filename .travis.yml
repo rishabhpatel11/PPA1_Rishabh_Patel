@@ -7,8 +7,6 @@ install:
   - pip install pymysql
   - pip install prettytable
   - pip install flask
-  - pip install json
-  - pip install os
   - pip install flask_mysqldb
   - pip install pytest
   - pip install mock
