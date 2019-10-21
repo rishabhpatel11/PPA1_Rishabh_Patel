@@ -68,6 +68,15 @@ Execute the following
 ```bash
 python main.py
 ```
+# How to set up Travis CI
+    Fork this repository if you have not: https://github.com/rishabhpatel11/PPA1_Rishabh_Patel
+	Go to https://travis-ci.org
+	Login with github
+	Click the + next to My Repositories in the top left
+	Turn the PPA1_Rishabh_Patel repository on
+	Go to dashboard and select the repo
+	The build should start automatically
+
 # How to view web requests table (since it wasn't specified how or if to show this table)
 Execute the following:
 
