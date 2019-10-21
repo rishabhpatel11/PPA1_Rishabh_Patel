@@ -2,6 +2,19 @@ pip3 install sqlalchemy
 pip3 install pymysql
 pip3 install prettytable
 
+To run CI:
+	if jenkins is not already running: docker run --rm -u root -p 8080:8080 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d jenkinsci/blueocean
+	open http://localhost:8080/ on a browser
+	Click 'New Item' at the top left
+	Enter name as PPA2_Rishabh_Patel(or w/e name you want), select Pipeline and then press OK
+	Under the heading Pipeline, change the definition to Pipeline script from SCM
+	Make the script path Jenkinsfile.txt
+	Make sure SCM field is Git and enter the repository URL: https://github.com/rishabhpatel11/PPA1_Rishabh_Patel
+	Click save
+	Click Open Blue Ocean on the left
+	Click run
+	
+
 To create database and tables in docker:
 	docker run --name=rp_mysql --env="MYSQL_ROOT_PASSWORD=password" -p 3308:3306 -d mysql:latest
 	docker exec -it rp_mysql mysql -uroot -ppassword    (Note: For some reason, you have to right click to paste instead of CRTL+v)
