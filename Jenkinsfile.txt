@@ -8,7 +8,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'python -m py_compile BMICalculator.py DistanceCalculator.py RetirementCalculator.py SplitTipCalculator.py CommandLineApp.py'
+                sh 'python -m py_compile BMICalculator.py DistanceCalculator.py RetirementCalculator.py SplitTipCalculator.py CommandLineApp.py WebApp.py'
             }
         }
         stage('Test') { 
@@ -18,7 +18,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'py.test --verbose --junit-xml test-reports/results.xml test_bmi.py test_distance.py test_retirement.py test_splitTip.py' 
+                sh 'py.test --verbose --junit-xml test-reports/results.xml test_bmi.py test_distance.py test_retirement.py test_splitTip.py test_database.py test_webApp.py' 
             }
             post {
                 always {

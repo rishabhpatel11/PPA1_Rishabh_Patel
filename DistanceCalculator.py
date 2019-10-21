@@ -32,5 +32,5 @@ def distance(x1, y1, x2, y2):
         print("Expected number for y2")
         
     dist=math.sqrt(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)))
-    return "%.5f" % round(dist,5)
+    return [x1,y1,x2,y2,"%.5f" % round(dist,5)]
 
