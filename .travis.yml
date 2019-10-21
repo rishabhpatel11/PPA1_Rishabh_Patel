@@ -3,7 +3,16 @@ python:
   - "3.6"      # current default Python on Travis CI
 # command to install dependencies
 install:
-  - pip install -r requirements.txt
+  - pip install sqlalchemy
+  - pip install pymysql
+  - pip install prettytable
+  - pip install flask
+  - pip install json
+  - pip install os
+  - pip install flask_mysqldb
+  - pip install pytest
+  - pip install mock
+  - pip install doubles
 # command to run tests
 script:
   - pytest
