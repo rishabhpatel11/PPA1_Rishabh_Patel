@@ -3,17 +3,13 @@ pip3 install pymysql
 pip3 install prettytable
 
 To run CI:
-	if jenkins is not already running: docker run --rm -u root -p 8080:8080 -v jenkins-data:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock -d jenkinsci/blueocean
-	open http://localhost:8080/ on a browser
-	Click 'New Item' at the top left
-	Enter name as PPA2_Rishabh_Patel(or w/e name you want), select Pipeline and then press OK
-	Under the heading Pipeline, change the definition to Pipeline script from SCM
-	Make the script path Jenkinsfile.txt
-	Make sure SCM field is Git and enter the repository URL: https://github.com/rishabhpatel11/PPA1_Rishabh_Patel
-	Click save
-	Click Open Blue Ocean on the left
-	Click run
-	
+	Fork my github repo: https://github.com/rishabhpatel11/PPA1_Rishabh_Patel
+	Go to https://travis-ci.org
+	Login with github
+	Click the + next to My Repositories in the top left
+	Turn the PPA1_Rishabh_Patel repo on
+	Go to dashboard and select the repo
+	The build should start automatically
 
 To create database and tables in docker:
 	docker run --name=rp_mysql --env="MYSQL_ROOT_PASSWORD=password" -p 3308:3306 -d mysql:latest

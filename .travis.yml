@@ -14,8 +14,8 @@ install:
 # command to run tests
 script:
   - echo "Running functional tests"
-  - pytest -rV test_bmi.py test_distance.py test_retirement.py test_splitTip.py
+  - pytest -rA test_bmi.py test_distance.py test_retirement.py test_splitTip.py
   - echo "Running database tests"
-  - pytest -rV test_database.py
+  - pytest -rA test_database.py
   - echo "Running web app tests"
-  - pytest -rV test_webApp.py
+  - pytest -rA test_webApp.py
