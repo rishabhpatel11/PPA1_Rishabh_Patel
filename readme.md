@@ -4,10 +4,10 @@ Project Report
 Rishabh Patel
 
 # IMPORTANT: 
-When you download the repository and extract the folder, make sure the folder is not inside something like
+When you download the repository and extract the folder, make sure the folder is not inside a master folder, something like
 C:\Users\Rishi\Downloads\PPA#1_Rishabh_Patel-master\PPA#1_Rishabh_Patel
 
-If so, move the PPA#1_Rishabh_Patel folder out
+If so, move the PPA#1_Rishabh_Patel folder out since I use a relative path in main.py
 
 # Naming Conventions
 Each function has a testing file associated with it. Pytest requires 'test_' before or after
