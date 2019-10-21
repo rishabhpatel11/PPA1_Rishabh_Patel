@@ -57,10 +57,10 @@ Execute the following commands to set up the database in docker:
 	exit;
 ```
 # How to run the command line app (including the web app)
-From a command prompt, go to the location of the test files you downloaded from github
+From a command prompt, go to the location of the repository you downloaded from github
 
 ```bash
-Example- cd C:\Users\Rishi\Downloads\PPA#1_Rishabh_Patel_
+Example- cd C:\Users\Rishi\Downloads\PPA#1_Rishabh_Patel
 ```
 
 Execute the following 
@@ -68,7 +68,8 @@ Execute the following
 ```bash
 python main.py
 ```
-# How to view web requests database
+# How to view web requests table (since it wasn't specified how or if to show this table)
+Execute the following:
 
 ```bash
 docker exec -it rp_mysql mysql -uroot -ppassword
