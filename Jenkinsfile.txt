@@ -18,7 +18,7 @@ pipeline {
                 }
             }
             steps {
-                sh 'py.test --verbose test_bmi.py test_distance.py test_retirement.py test_splitTip.py test_database.py test_webApp.py' 
+                sh 'py.test --verbose --junit-xml test-reports/results.xml test_bmi.py test_distance.py test_retirement.py test_splitTip.py test_database.py test_webApp.py' 
             }
             post {
                 always {
