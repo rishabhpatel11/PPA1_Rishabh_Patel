@@ -25,3 +25,7 @@ To view web_request table:
 	docker exec -it rp_mysql mysql -uroot -ppassword
 	use ppa2;
 	select * from web_requests;
+
+To run main file:
+	Open main.py
+	Replace the path "C:\Users\Rishi\Documents\GitHub\PPA1_Rishabh_Patel" with the path in your system
