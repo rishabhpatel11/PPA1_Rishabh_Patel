@@ -13,6 +13,9 @@ install:
   - pip install doubles
 # command to run tests
 script:
+  - echo "Running functional tests"
   - pytest -rV test_bmi.py test_distance.py test_retirement.py test_splitTip.py
+  - echo "Running database tests"
   - pytest -rV test_database.py
+  - echo "Running web app tests"
   - pytest -rV test_webApp.py
