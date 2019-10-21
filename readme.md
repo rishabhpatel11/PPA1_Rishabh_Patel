@@ -102,7 +102,7 @@ pytest -rA test_database.py
 ![final CI](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/CI_phase4.gif)
 
 # Full Execution
-![full execution](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/tree/master/GIFs%2BImages/Phase4/fullexecution.gif)
+![full execution](https://github.com/rishabhpatel11/PPA1_Rishabh_Patel/blob/master/GIFs%2BImages/Phase4/fullexecution.gif)
 
 
 # Test Output Report
