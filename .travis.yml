@@ -13,4 +13,6 @@ install:
   - pip install doubles
 # command to run tests
 script:
-  - pytest
+  - pytest -rV test_bmi.py test_distance.py test_retirement.py test_splitTip.py
+  - pytest -rV test_database.py
+  - pytest -rV test_webApp.py

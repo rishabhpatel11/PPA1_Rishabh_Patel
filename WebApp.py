@@ -47,11 +47,11 @@ def displayDistanceData():
 
 @app.errorhandler(500)
 def internal_error(error):
-    return "500 error"
+    return "500 Error"
 
 @app.errorhandler(404)
 def not_found(error):
-    return "404 error",404
+    return "404 Error"
 
 
 
