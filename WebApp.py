@@ -56,6 +56,6 @@ def not_found(error):
 
 
 if __name__ == '__main__':
-   print("Go to http://localhost:5000/bmi or http://localhost:5000/distance to get json data")
+   print("Go to http://localhost:5000/bmi or http://localhost:5000/distances to get json data")
    os.environ['WERKZEUG_RUN_MAIN'] = 'true'
    app.run(debug=False)
