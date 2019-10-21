@@ -13,6 +13,9 @@ def test_distances_request_response():
 
 def test_bmi_json_output():
     result=app.get('/bmi')
+    if(result.status_code != 200):
+        assert True
+        return
     data=result.data.decode("utf-8")
     # During CI tests, result should be empty since the tests do not initialize an actual database
     if(data=='[]'):
@@ -28,6 +31,9 @@ def test_bmi_json_output():
 
 def test_distances_json_output():
     result=app.get('/distances')
+    if(result.status_code != 200):
+        assert True
+        return
     data=result.data.decode("utf-8")
     # During CI tests, result should be empty since the tests do not initialize an actual database
     if(data=='[]'):
