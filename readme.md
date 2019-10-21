@@ -42,7 +42,7 @@ pip install doubles
 
 The full list of required modules includes py and pluggy but those should be installed already.
 
-# Executing the tests
+# Setting up the Database
 Make sure docker desktop is running
 
 Execute the following commands to set up the database in docker:
@@ -56,7 +56,7 @@ Execute the following commands to set up the database in docker:
 	CREATE TABLE web_requests(IP varchar(50), request varchar(50), requested_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP);
 	exit;
 ```
-# How to run the command line app (including the web app)
+# How to run the command line app/web app
 From a command prompt, go to the location of the repository you downloaded from github
 
 ```bash
