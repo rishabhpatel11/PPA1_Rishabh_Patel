@@ -3,6 +3,10 @@ Project Report
 
 Rishabh Patel
 
+# IMPORTANT: When you download the repository and extract the folder, make sure the folder is not inside something like
+# C:\Users\Rishi\Downloads\PPA#1_Rishabh_Patel-master\PPA#1_Rishabh_Patel
+# If so, move the PPA#1_Rishabh_Patel folder out
+
 # Naming Conventions
 Each function has a testing file associated with it. Pytest requires 'test_' before or after
 the file name and individual unit test name. I decided to put the keyword in the front so the test files 
